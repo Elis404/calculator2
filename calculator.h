@@ -11,7 +11,6 @@ double division(double, double);
 
 double percent_of(double);
 
-double mod(int, int);
 
 double pow(double, double);
 
