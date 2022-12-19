@@ -21,6 +21,16 @@ double percent_of(double a) {
     return a / 100;
 }
 
+double mod(int a, int b) {
+    try {
+        return a % b;
+    }
+    catch (...) {
+        std::cout << "smth";
+        return -1;
+    };
+}
+
 double pow(double a, double n) {
     int res = 1;
     for (int i = 0; i < n; i++) {

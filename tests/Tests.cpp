@@ -54,3 +54,9 @@ TEST_CASE("factorial testing") {
     CHECK(factorial(8) == 40320);
 }
 
+TEST_CASE("mod testing") {
+    CHECK(mod(5, 0) == 1);
+    CHECK(mod(4, 2) == 0);
+    CHECK(mod(11, 3) == 2);
+}
+

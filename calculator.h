@@ -1,19 +1,21 @@
 #ifndef CALCULATOR2_CALCULATOR_H
 #define CALCULATOR2_CALCULATOR_H
 
-double addition(double a, double b);
+double addition(double, double );
 
-double subtraction(double a, double b);
+double subtraction(double , double);
 
-double multiplication(double a, double b);
+double multiplication(double, double);
 
-double division(double a, double b);
+double division(double, double);
 
-double percent_of(double a);
+double percent_of(double);
 
-double pow(double a, double n);
+double mod(int, int);
 
-double factorial(double a);
+double pow(double, double);
+
+double factorial(double);
 
 
 #endif //CALCULATOR2_CALCULATOR_H
