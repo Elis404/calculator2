@@ -52,5 +52,4 @@ TEST_CASE("factorial testing") {
     CHECK(factorial(3) == 6);
     CHECK(factorial(5) == 120);
     CHECK(factorial(8) == 40320);
-    CHECK(factorial(4) == 0);
 }
